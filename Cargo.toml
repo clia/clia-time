@@ -3,17 +3,17 @@ members = ["time-macros"]
 resolver = "2"
 
 [package]
-name = "time"
-version = "0.3.7"
-authors = ["Jacob Pratt <open-source@jhpratt.dev>", "Time contributors"]
+name = "clia-time"
+version = "0.3.8"
+authors = ["Cris Liao <clia@163.com>", "Jacob Pratt <open-source@jhpratt.dev>", "Time contributors"]
 edition = "2018"
-repository = "https://github.com/time-rs/time"
+repository = "https://github.com/clia/clia-time"
 homepage = "https://time-rs.github.io"
 keywords = ["date", "time", "calendar", "duration"]
 categories = ["date-and-time", "no-std", "parser-implementations", "value-formatting"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-description = "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std]."
+description = "A temporary improvement to time-rs, using tz-rs to get local offset."
 include = ["src/**/*", "LICENSE-*", "README.md", "!src/tests.rs"]
 
 [lib]
