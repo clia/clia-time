@@ -4,7 +4,7 @@ resolver = "2"
 
 [package]
 name = "clia-time"
-version = "0.3.8"
+version = "0.3.9"
 authors = ["Cris Liao <clia@163.com>", "Jacob Pratt <open-source@jhpratt.dev>", "Time contributors"]
 edition = "2018"
 repository = "https://github.com/clia/clia-time"
@@ -13,7 +13,7 @@ keywords = ["date", "time", "calendar", "duration"]
 categories = ["date-and-time", "no-std", "parser-implementations", "value-formatting"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-description = "A temporary improvement to time-rs, using tz-rs to get local offset."
+description = "A personal temporary time crate, using tz-rs to get local offset."
 include = ["src/**/*", "LICENSE-*", "README.md", "!src/tests.rs"]
 
 [lib]
